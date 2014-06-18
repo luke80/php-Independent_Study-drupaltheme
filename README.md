@@ -1,4 +1,4 @@
-php-Independent_Study-drupaltheme
-=================================
+byutickets-drupal
+=================
 
-BYU - Independent Study Drupal Theme
+Drupal subtheme for byutickets site
