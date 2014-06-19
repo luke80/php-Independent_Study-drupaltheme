@@ -99,8 +99,10 @@ $sidebar_right = render($page['sidebar_right']);
 			<div class="wrapper clearfix">
 			<?php 
 			if (!render($page['copyright'])): //If there is no specific content in the copyright area, display default ?> 
-				<a id="byuarts"  href="http://byuarts.com/">BYU Arts</a>
-				<a id="byucougars"  href="http://byucougars.com/">BYU Athletics</a>
+				<?php  /*?>a id="byuarts"  href="http://byuarts.com/">BYU Arts</a>
+				<a id="byucougars"  href="http://byucougars.com/">BYU Athletics</a */ ?>
+				<a id="byudce"  href="http://ce.byu.edu/">Department of Continuing Education</a>
+				<a id="byu"  href="http://home.byu.edu/">BYU</a>
 			<?php else: 
 				print render($page['copyright']);
 			endif; ?>
